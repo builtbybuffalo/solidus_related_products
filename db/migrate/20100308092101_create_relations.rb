@@ -1,4 +1,4 @@
-class CreateRelations < SolidusSupport::Migration[4.2]
+class CreateRelations < SolidusSupport::Migration[5.1]
   def self.up
     create_table :relations, force: true do |t|
       t.references :relation_type

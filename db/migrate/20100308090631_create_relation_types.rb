@@ -1,4 +1,4 @@
-class CreateRelationTypes < SolidusSupport::Migration[4.2]
+class CreateRelationTypes < SolidusSupport::Migration[5.1]
   def self.up
     create_table :relation_types do |t|
       t.string :name
